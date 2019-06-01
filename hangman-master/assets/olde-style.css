@@ -1,0 +1,93 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #ffffcc url(../assets/images/parchment-paper.jpg) fixed center/cover;
+  font-family: 'IM Fell DW Pica SC', serif;
+  color: rgba(25, 25, 25, 0.8);
+}
+
+p {
+  font-family: "IM Fell DW Pica", serif;
+}
+
+#bodyPanel {
+  background: rgba(360, 360, 360, 0.2);
+  border-radius: 10px;
+  background-size: 100% 100%;
+}
+
+.vertical-center {
+	min-height: 100vh;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+
+	align-items: center;
+}
+
+#instructions {
+	margin-bottom: 20px;
+}
+
+#hangPic-container {
+	margin: 20px;
+}
+
+#hangPic {
+  max-height: 100%;
+  max-width: 100%;
+  opacity: 0.8;
+}
+
+.pagination {
+	margin: 5px;
+}
+
+.pagination>li>a {
+  color: #cdb873;
+}
+
+.pagination>.active>a {
+  background-color: #cdb873;
+  border-color: #cdb873;
+}
+
+.btn {
+  background: #ffffcc;
+  border-color: rgba(0, 0, 0, 0.1);
+  white-space: normal !important;
+  word-wrap: break-word;
+}
+
+.alphaBtn {
+	min-width: 40px;
+	min-height: 40px;
+	margin: 5px;
+}
+
+#instructionModal div {
+  background: #ffffcc;
+  border-color: rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-clip: padding-box;
+}
+
+
+@media screen and (max-width: 768px) {
+	.rightWrong {
+		font-size: .8em;
+	}
+
+	.alert {
+		width: 90vw !important;
+		transform: translate(-50vw);
+	}
+}
