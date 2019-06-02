@@ -1,20 +1,98 @@
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 .flex-container {
-  background-color:DodgerBlue;
+  /* background-color: DodgerBlue; */
   display: flex;
+  height: auto;
+  max-width: 100%;
+  margin: 33.3% 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* flex-flow is a shorthand property for setting both the flex-direction and flex-wrap properties. */
+  /* flex-flow:row wrap; */
 }
 
-.flex-item{
-  background-color:#f1f1f1;
-  padding:20px;
-  font-size:30px;
-  width: 100px;
-  margin: 10px;
+.flex-item {
+  padding: 0 4px;
+  width: 20%;
+  /* line-height: 75px; */
+  flex: 33.33%;
   text-align: center;
-  line-height: 75px;
+  border:2px solid black;
+}
+
+#liger {
+  order: 5;
+  flex: 66.66%;
+  background-color: #F4F4F4;
+}
+
+#loris {
+  order: 1;
+}
+
+#leafy {
+  order: 2;
+}
+
+#macaque {
+  order: 3;
+}
+
+#centipede {
+  order: 4;
+  flex: 16.665%;
+  align-self: center;
+}
+
+#duck {
+  order: 6;
+  flex: 16.665%;
+  align-self: center;
+}
+
+#fox {
+  order: 7;
+}
+
+#angler {
+  order: 8;
+}
+
+#pangolin {
+  order: 9;
+}
+
+#dolphin {
+  order: 10;
+  flex: 70%;
+}
+
+#grasshopper {
+  order: 11;
+  flex: 15%;
+}
+
+#tapir {
+  order: 12;
+  flex: 15%;
+}
+
+img {
+  width: 100%;
+  border:1px solid red;
+}
+
+#duckimg {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#centipedeimg {
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
