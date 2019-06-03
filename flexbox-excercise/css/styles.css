@@ -65,12 +65,11 @@ body {
   height: 100vh;
   background-color: #F4F4F4;
   text-align: center;
-  padding-top: 10%;
+  padding: 10% 10%;
 }
 
 #main-title {
-  line-height: 100px;
-  font-size: 100px;
+  font-size: 80px;
 }
 
 .flex-container {
@@ -173,7 +172,8 @@ img {
   height: 45%;
   text-align: center;
   padding: 50px 0;
-  background-color: #3E3D3D;
+  background-color: black;
+  color:#FDFAFA;
 }
 
 .list-container-footer{
@@ -184,7 +184,15 @@ img {
   margin-bottom:80px;
   text-align:center;
 }
-
+.fa-facebook{
+  color:#FDFAFA;
+}
+.fa-instagram{
+  color:#FDFAFA;
+}
+.fa-twitter{
+  color:#FDFAFA;
+}
 .fa-facebook:hover{
   color:dodgerblue;
 }
