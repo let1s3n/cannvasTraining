@@ -80,7 +80,7 @@ body {
   max-width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 20px;
+  padding: 50px 20px;
   /* flex-flow is a shorthand property for setting both the flex-direction and flex-wrap properties. */
   /* flex-flow:row wrap; */
 }
